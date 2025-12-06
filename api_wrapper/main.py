@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 import pickle
+from pydantic import BaseModel
 import nltk
 from nltk.corpus import stopwords
 
@@ -16,6 +17,9 @@ with open("label_encoder.pkl", "rb") as f:
 
 app = FastAPI()
 
+class Request(BaseModel):
+    text: str
+
 def nlp(text: str):
     text = text.strip().lower()
     words = nltk.word_tokenize(text)
@@ -23,8 +27,9 @@ def nlp(text: str):
     return " ".join(filtered_words)
 
 @app.post("/api")
-def api(text: str):
+def api(req: Request):
     try:
+        text = req.text
         text_clean = nlp(text)
         text_vectorized = vectorizer.transform([text_clean])
         pred = model.predict(text_vectorized)
@@ -35,4 +40,5 @@ def api(text: str):
         }
     except Exception as e:
         print("Error:", e)
+
         return {"error": "Internal server error"}
