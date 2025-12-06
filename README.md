@@ -10,7 +10,7 @@ The service uses a simple logistic regression model trained on a dataset of labe
 
 ## Dataset
 
-The dataset used in this project contains text messages labeled as "suicide" or "non-suicide" and can be found on [Kaggle](https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch). This dataset is used to train the machine learning model, enabling the classification of text messages based on language patterns associated with suicidal thoughts.
+The dataset used in this project contains text messages labeled as "suicide" or "non-suicide" and can be found on [Kaggle](https://www.kaggle.com/). This dataset is used to train the machine learning model, enabling the classification of text messages based on language patterns associated with suicidal thoughts.
 
 - **Link to dataset**: [Suicide Watch Dataset on Kaggle](https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch)
 
@@ -44,10 +44,7 @@ To get started with the project locally, follow these steps:
    pip install -r requirements.txt
    ```
 
-3. **Download the Dataset**:
-   Download the [Suicide Watch Dataset](https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch) and place it in the appropriate directory (`/dataset.csv`).
-
-4. **Run the FastAPI server**:
+3. **Run the FastAPI server**:
    To start the API server locally, run:
 
    ```bash
